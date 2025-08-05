@@ -10,18 +10,17 @@ import { FilterByDescription } from './photo-list/filter-by-description.pipe';
 import { LoadButtonComponent } from './photo-list/load-button/load-button.component';
 
 @NgModule({
-  declarations:[
-    PhotoComponent,
-    PhotoListComponent,
-    PhotoFormComponent,
-    PhotosComponent,
-    FilterByDescription,
-    LoadButtonComponent
-  ],
-  imports: [
-    HttpClientModule,
-    CommonModule
-  ]
+    declarations: [ 
+        PhotoComponent, 
+        PhotoListComponent, 
+        PhotoFormComponent, 
+        PhotosComponent,
+        FilterByDescription,
+        LoadButtonComponent
+    ],
+    imports: [ 
+        HttpClientModule,
+        CommonModule 
+    ]
 })
-
 export class PhotosModule {}
